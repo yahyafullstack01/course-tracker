@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 const Tags = ({ tagsUpdated, key }) => {
-    const tagChoices = ['node', 'javascript', 'react', 'react-native','digital-marketing','devops'];
+    const tagChoices = [ 'javascript', 'react', 'tailwind','Bootstrap'];
     const [selectedTags, setSelectedTags] = useState([]);
 
     useEffect(() => {
